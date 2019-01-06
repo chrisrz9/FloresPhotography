@@ -1,0 +1,37 @@
+/* CSS Document */
+
+/* Stylesheet > Contact.html */
+
+@import;
+
+
+
+.informationSection {
+	
+	position: relative;
+	
+	background-color: rgba(17, 17, 17, 0.8);
+	
+	width: 100%;
+	height: 930px;
+	
+}
+
+#informationContent {
+	
+	border: solid green 1px;
+	background-color: ;
+	color: rgba(255, 255, 255, 1.0);
+	
+	position: relative;
+	
+	width: 90%;
+	max-width: 90%;
+	height: 260px;
+	
+	top: 0px;
+	
+	margin-top: 10px;
+	padding: 9px 16px;
+	
+}

@@ -1,0 +1,79 @@
+/* CSS Document */
+
+/* Footer Element // Footer Attribute : Style */
+/* div.footer_wrapper */
+.footer_wrapper {
+	display: block;
+	position: relative;
+	
+	color: #fff;
+	color: #fff;
+	
+	font-family: lato;
+	font-size: 16px;
+	
+	background-color: rgba(27, 34, 43, 0.9);
+	
+	bottom: 0px;
+	left: 0px;
+	
+	
+	
+	/* development */
+	border: hidden green 2px;
+	
+	height: 310px;
+}
+
+.footer_wrapper h3 {
+	letter-spacing: 2px;
+}
+
+#footerNav {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	
+	top: 0px;
+	left: 0px;
+	
+	height: inherit;
+}
+
+
+.footer_wrapper ul {
+	position: relative;
+	
+	top: 0px;
+	
+	/*development */
+	display: block;
+	
+	border: solid #fff 1px;
+	
+	width: 131px;
+	height: 93px;
+}
+.footer_wrapper li {
+	font-size: 16px;
+	color: rgba(109, 119, 132, 1.0);
+}
+.container {
+	border: hidden pink 2px;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 260px;
+	height: inherit;
+	margin: 0;
+	padding: 0;
+}
+/* div.footer_navigation_wrapper > ul > li */
+.footer_navigation_wrapper {
+	border: solid purple 2px;
+	display: block;
+	width: 100%;
+	position: relative;
+	height: 160px;
+}

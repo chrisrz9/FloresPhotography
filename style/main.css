@@ -1,0 +1,185 @@
+/* CSS Document */
+#test-content{
+	border: solid #000000 1px;
+	
+	display: block;
+	position: relative;
+	
+	height: 310px;
+	width: 100%;
+}
+* {
+	font: normal;
+	font-family: lato;
+}
+
+/* html Element */
+
+html {
+	height: 100%;
+	width: 100%;
+	
+	font-family: lato;
+	font-size: 16px;
+	
+	margin: 0;
+	padding: 0;
+}
+
+/* navigation link attributes */
+a {
+	text-decoration: none;
+}
+li {
+	position: relative;
+	
+	list-style-type: none;
+}
+
+/* Body Element */
+
+body {
+	display: block;
+	
+	height: 100%;
+	max-height: 100%;
+	width: 100%;
+	
+	font: inherit;
+	
+	margin: 0px;
+    background-color: rgba(255, 255, 255, 1.0);
+}
+/* main element: */
+main {
+	border: hidden blue 1px;
+	
+	display: block;
+	position: relative;
+	
+	background-image: url("../images/IMG_7160.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	height: 310px;
+	width: 100%;
+}
+#introBio {
+	position: relative;
+	
+	font-size: 16px;
+	line-height: 1.6em;
+	
+	/* development */
+	border: hidden red 2px;
+	padding: 0px;
+	margin: 0px;
+	left: 0;
+}
+article {
+	text-align: center;
+	
+	display: block;
+	position: relative;
+	
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+	
+	margin: 0;
+}
+article p {
+	line-height: 1.6em;
+}
+#article_one {
+	border: hidden red 1px;
+}
+section {
+	border: hidden green 1px;
+	
+	display: block;
+	position: relative;
+	
+	height: auto;
+	width: 100%;
+}
+#article_two {
+	border: hidden black 1px;
+}
+#article_two_entry {
+	border: hidden purple 1px;
+	align-content: center;
+	
+	font-size: 16px;
+	line-height: 1.6em;
+	
+	height: 200px;
+	
+	margin: 0;
+}
+#copyright {
+	display: block;
+	position: relative;
+	
+	text-align: center;
+	
+	margin: 9px 0px;
+}
+/* footer Element --- */
+footer {
+	display: block;
+	position: relative;
+	
+	background-color: #000000;
+	
+	color: #ffffff;	
+	
+	height: 210px;
+	width: 100%;
+	
+	margin: 0;
+	padding: 9px 0px;
+}
+footer nav {
+	display: block;
+	position: ;
+	
+	height: 75%;
+	width: 50%;
+}
+footer ul {
+	display: list-item;
+	position: inherit;
+	padding: 1px 0px;
+}
+footer li {
+	display: inherit;
+	position: inherit;
+	
+	margin: 0px 0px;
+	padding: 3px 9px;
+}
+footer p {
+	display: inherit;
+	
+	
+	text-align: center;
+	color: #ffffff;
+	
+	margin-top: 16px;
+}
+footer p a {
+	color: #ffffff;
+}
+#instagram_embedded_wrapper {
+	display: block;
+	position: relative;
+	align-content: center;
+	align-text: center;
+	perspective-origin: center;
+	
+}
+
+article {
+	
+}

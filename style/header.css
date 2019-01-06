@@ -1,0 +1,116 @@
+/* CSS Document */
+
+/* Header Element // Header Attribute */
+header {    
+    
+	/* Font Detail */
+    color: rgba( 0, 0, 0, 1.00); /* RGB & A Hex Value*/
+	font-family: lato;
+	font: lighter;
+	text-align: center;
+    
+    /* Attribute Background */
+    background-color: rgba(250, 250, 250, 1.0); /* RGB & A Value */
+    
+    /* Attribute Detail */
+    display: block;
+	border: black 1.5px;
+    box-sizing: border-box;
+    
+    /* Attribute Dimensions */
+    width: 100%;
+    height: 93px;
+    
+    /* Attribute Position */
+    position: relative;
+    top: 0px;
+    left: 0px;
+	padding: 0px 0px;
+	margin: 0px 0px;
+    }
+
+.title {
+	/* Development */
+	border: orange 1px;
+	
+	height: 50px;
+	width: 100%;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+
+/* Navigation Attribute */
+.navigation {
+	text-align: center;
+	/* Development */
+	border: 1px green;
+	
+	/* Attribute detail*/
+    display: block;
+	
+	height: 26px;
+	width: 100%;
+	
+	/* Attribute position */
+	position: relative;
+	top: 0px;
+	left: 0px;
+		
+	margin: 0px ;
+	padding: 9px 0px ;
+}
+
+nav ul {
+	align-content: center;
+	border: hidden red 1px;
+    display: block;
+	height: inherit;
+    width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: inherit;
+}
+
+header nav li {
+	text-align: center;
+	
+	font-size: 16px;
+	
+	/* Development */
+	border: hidden 1px blue;
+	
+    display: inline-block;
+    color: rgba(0, 0, 0, 1.0);
+	width: 70px;
+    
+    /* Font Detail */
+    
+    /* Attribute Detail */
+    
+    /* Attribut Position */
+    margin:  0px;
+    padding: 0px 0px;
+	position: inherit;
+}
+
+nav a:hover{
+    
+    /* Attribute Detail */
+    color: rgba( 0, 0, 0, 1.0);
+    
+    
+    
+}
+
+nav a {
+    color: rgba(109, 119, 132, 1.0);
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 2px;  
+}
