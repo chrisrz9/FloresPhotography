@@ -76,47 +76,6 @@ main {
 	margin: 0px;
 	left: 0;
 }
-article {
-	text-align: center;
-	
-	display: block;
-	position: relative;
-	
-	height: auto;
-	width: 100%;
-	max-width: 100%;
-	
-	margin: 0;
-}
-article p {
-	line-height: 1.6em;
-}
-#article_one {
-	border: hidden red 1px;
-}
-section {
-	border: hidden green 1px;
-	
-	display: block;
-	position: relative;
-	
-	height: auto;
-	width: 100%;
-}
-#article_two {
-	border: hidden black 1px;
-}
-#article_two_entry {
-	border: hidden purple 1px;
-	align-content: center;
-	
-	font-size: 16px;
-	line-height: 1.6em;
-	
-	height: 200px;
-	
-	margin: 0;
-}
 #copyright {
 	display: block;
 	position: relative;
@@ -177,9 +136,5 @@ footer p a {
 	align-content: center;
 	align-text: center;
 	perspective-origin: center;
-	
-}
-
-article {
 	
 }
