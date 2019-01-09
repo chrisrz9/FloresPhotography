@@ -22,15 +22,6 @@ article p {
 #article_one {
 	border: hidden red 1px;
 }
-section {
-	border: hidden green 1px;
-	
-	display: block;
-	position: relative;
-	
-	height: auto;
-	width: 100%;
-}
 #article_two {
 	border: hidden black 1px;
 }
@@ -44,4 +35,22 @@ section {
 	height: 200px;
 	
 	margin: 0;
+}
+/* section element > */
+section {
+	border: hidden green 1px;
+	
+	display: block;
+	position: relative;
+	
+	height: 160px;
+	width: 100%;
+}
+/* section > #portrait-section //adapt into "section" element; excluding backgroung attribute; */
+#portrait-section {
+	color: #ffffff;
+	
+	background-image: url(../images/IMG_7160.jpg);
+	backgroung-size: cover;
+	background-repeat: no-repeat;
 }
