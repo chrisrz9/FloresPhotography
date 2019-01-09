@@ -1,9 +1,5 @@
 /* CSS Document */
 
-img {
-	display: block;
-	position: relative;
-}
 article {
 	text-align: center;
 	
@@ -41,24 +37,22 @@ section {
 	border: hidden green 1px;
 	
 	text-align: center;
+	align-content: center;
+	align-items: center;
 	
 	display: block;
 	position: relative;
 	
 	height: auto;
 	width: 100%;
+	
+	margin: 0px;
+	padding: 9px 0px;
+}
+img {
+	padding: 3px 0px;
 }
 /* section > #portrait-section //adapt into "section" element; excluding backgroung attribute; */
 #portrait-section {
 	color: #ffffff;
-}
-#gallery-title {
-	display: block;
-	position: absolute;
-	
-	font-size: 31px;
-	text-align: center;
-	
-	
-	z-index: 9999;
 }

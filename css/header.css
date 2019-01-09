@@ -2,7 +2,7 @@
 
 /* Header Element // Header Attribute */
 header {    
-    
+	border-bottom: solid 1px black;    
 	/* Font Detail */
     color: rgba( 0, 0, 0, 1.00); /* RGB & A Hex Value*/
 	font-family: lato;
@@ -14,7 +14,6 @@ header {
     
     /* Attribute Detail */
     display: block;
-	border: black 1.5px;
     box-sizing: border-box;
     
     /* Attribute Dimensions */
@@ -49,7 +48,6 @@ header {
 .navigation {
 	text-align: center;
 	/* Development */
-	border: 1px green;
 	
 	/* Attribute detail*/
     display: block;

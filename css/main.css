@@ -1,13 +1,4 @@
 /* CSS Document */
-#test-content{
-	border: solid #000000 1px;
-	
-	display: block;
-	position: relative;
-	
-	height: 310px;
-	width: 100%;
-}
 * {
 	font: normal;
 	font-family: lato;
