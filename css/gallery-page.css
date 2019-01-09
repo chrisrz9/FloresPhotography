@@ -40,17 +40,25 @@ article p {
 section {
 	border: hidden green 1px;
 	
+	text-align: center;
+	
 	display: block;
 	position: relative;
 	
-	height: 160px;
+	height: auto;
 	width: 100%;
 }
 /* section > #portrait-section //adapt into "section" element; excluding backgroung attribute; */
 #portrait-section {
 	color: #ffffff;
+}
+#gallery-title {
+	display: block;
+	position: absolute;
 	
-	background-image: url(../images/IMG_7160.jpg);
-	backgroung-size: cover;
-	background-repeat: no-repeat;
+	font-size: 31px;
+	text-align: center;
+	
+	
+	z-index: 9999;
 }
