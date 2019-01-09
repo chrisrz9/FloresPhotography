@@ -10,7 +10,8 @@ article {
 	width: 100%;
 	max-width: 100%;
 	
-	margin: 0;
+	margin: 0px;
+	padding: 16px 0px;
 }
 article p {
 	line-height: 1.6em;
