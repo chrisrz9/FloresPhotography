@@ -54,15 +54,24 @@ body {
 main {
 	border: hidden blue 1px;
 	
+	/* Font Attributes */
+	color: #ffffff;
+	font-weight: 500;
+	text-align: center;
+	
 	display: block;
 	position: relative;
 	
-	background-image: url("../images/IMG_7160.jpg");
+	background-image: url("../images/index-content/Hiring-a-Professional-Photographer-1080x500 (1).jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	
-	height: 310px;
+	/* Element Dimensions */
+	height: 93px;
 	width: 100%;
+	
+	margin: 0;
+	padding: 9px;
 }
 #introBio {
 	position: relative;
@@ -84,52 +93,7 @@ main {
 	
 	margin: 9px 0px;
 }
-/* footer Element --- */
-footer {
-	display: block;
-	position: relative;
-	
-	background-color: #000000;
-	
-	color: #ffffff;	
-	
-	height: 210px;
-	width: 100%;
-	
-	margin: 0;
-	padding: 9px 0px;
-}
-footer nav {
-	display: block;
-	position: ;
-	
-	height: 75%;
-	width: 50%;
-}
-footer ul {
-	display: list-item;
-	position: inherit;
-	padding: 1px 0px;
-}
-footer li {
-	display: inherit;
-	position: inherit;
-	
-	margin: 0px 0px;
-	padding: 3px 9px;
-}
-footer p {
-	display: inherit;
-	
-	
-	text-align: center;
-	color: #ffffff;
-	
-	margin-top: 16px;
-}
-footer p a {
-	color: #ffffff;
-}
+
 #instagram_embedded_wrapper {
 	display: block;
 	position: relative;

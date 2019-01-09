@@ -1,79 +1,60 @@
 /* CSS Document */
 
-/* Footer Element // Footer Attribute : Style */
-/* div.footer_wrapper */
-.footer_wrapper {
-	display: block;
-	position: relative;
-	
-	color: #fff;
-	color: #fff;
-	
+/* footer Element --- */
+
+footer {
 	font-family: lato;
-	font-size: 16px;
 	
-	background-color: rgba(27, 34, 43, 0.9);
-	
-	bottom: 0px;
-	left: 0px;
-	
-	
-	
-	/* development */
-	border: hidden green 2px;
-	
-	height: 310px;
-}
-
-.footer_wrapper h3 {
-	letter-spacing: 2px;
-}
-
-#footerNav {
-	display: inline-block;
-	margin: 0px;
-	padding: 0px;
-	
-	top: 0px;
-	left: 0px;
-	
-	height: inherit;
-}
-
-
-.footer_wrapper ul {
+	display: block;
 	position: relative;
 	
-	top: 0px;
+	background-color: #000000;
 	
-	/*development */
-	display: block;
+	color: #ffffff;	
 	
-	border: solid #fff 1px;
-	
-	width: 131px;
-	height: 93px;
-}
-.footer_wrapper li {
-	font-size: 16px;
-	color: rgba(109, 119, 132, 1.0);
-}
-.container {
-	border: hidden pink 2px;
-	position: relative;
-	top: 0;
-	left: 0;
-	display: inline-block;
-	width: 260px;
-	height: inherit;
-	margin: 0;
-	padding: 0;
-}
-/* div.footer_navigation_wrapper > ul > li */
-.footer_navigation_wrapper {
-	border: solid purple 2px;
-	display: block;
+	height: auto;
 	width: 100%;
+	
+	margin: 0;
+	padding: 9px 0px;
+}
+.footer_logo {
+	border: solid red 1px;
+	
+	height: inherit;
+	text-align: right;
+	
+	margin: inherit;
+	padding: 0px 9px;
+}
+footer nav {
+	display: block;
 	position: relative;
-	height: 160px;
+	
+	height: 75%;
+	width: 50%;
+}
+footer ul {
+	display: list-item;
+	position: inherit;
+	padding: 1px 0px;
+}
+footer li {
+	display: inherit;
+	position: inherit;
+	
+	margin: 0px 0px;
+	padding: 3px 9px;
+}
+footer p {
+	display: inherit;
+	
+	
+	text-align: center;
+	color: #ffffff;
+	
+	margin-top: 16px;
+}
+footer p a {
+	color: #ffffff;
 }
