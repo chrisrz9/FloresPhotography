@@ -24,7 +24,7 @@ header {
     top: 0px;
     left: 0px;
 	padding: 0px 0px;
-	margin: 0px 0px;
+	z-index: 9999;
     }
 
 .title {
