@@ -50,7 +50,11 @@ section {
 	padding: 9px 0px;
 }
 img {
+	width: auto;
+	max-width: 900px;
+	
 	padding: 3px 0px;
+
 }
 /* section > #portrait-section //adapt into "section" element; excluding backgroung attribute; */
 #portrait-section {
