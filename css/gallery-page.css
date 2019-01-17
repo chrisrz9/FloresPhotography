@@ -1,6 +1,7 @@
 /* CSS Document */
 
-article {
+/* .image_section; section.image_section # > */
+section {
 	text-align: center;
 	
 	display: block;
@@ -13,16 +14,16 @@ article {
 	margin: 0;
 	box-shadow-bottom: 30px 1.0;
 }
-article p {
+section p {
 	line-height: 1.6em;
 }
-#article_one {
+#section_one {
 	border: hidden red 1px;
 }
-#article_two {
+#section_two {
 	border: hidden black 1px;
 }
-#article_two_entry {
+#section_two_entry {
 	border: hidden purple 1px;
 	align-content: center;
 	
