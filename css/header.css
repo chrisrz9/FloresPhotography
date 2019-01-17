@@ -2,6 +2,7 @@
 
 /* Header Element // Header Attribute */
 header {    
+	border: solid 1px #333;
 	/* Font Detail */
     color: rgba( 0, 0, 0, 1.00); /* RGB & A Hex Value*/
 	font-family: lato;
@@ -13,7 +14,7 @@ header {
     
     /* Attribute Detail */
     display: block;
-	box-shadow-bottom: 30px 0 40px rgba(0,0,0,0.1);
+	box-shadow-bottom: 30px 0 40px rgba(0,0,0,1);
     
     /* Attribute Dimensions */
     width: 100%;

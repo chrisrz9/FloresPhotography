@@ -11,6 +11,7 @@ article {
 	max-width: 100%;
 	
 	margin: 0;
+	box-shadow-bottom: 30px 1.0;
 }
 article p {
 	line-height: 1.6em;
@@ -34,7 +35,7 @@ article p {
 }
 /* section element > */
 section {
-	border: hidden green 1px;
+	border: solid green 1px;
 	
 	text-align: center;
 	align-content: center;
@@ -48,6 +49,8 @@ section {
 	
 	margin: 0px;
 	padding: 9px 0px;
+	
+	box-shadow: 30px 30px 30px #333; 
 }
 img {
 	width: auto;
