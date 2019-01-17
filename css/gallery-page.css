@@ -44,7 +44,8 @@ div.image_wrapper {
 	align-content: center;
 	align-items: center;
 	
-	display: block;
+	display: flex;
+	justify-content: center;
 	position: relative;
 	
 	height: auto;
@@ -53,9 +54,11 @@ div.image_wrapper {
 	box-shadow: 30px 30px 30px #333; 
 }
 img {
-	width: inherit;
+	height: auto;
+	width: auto;
 	
-	padding: 0px 0px;
+	margin: 0;
+	padding: 0;
 }
 /* section > #portrait-section //adapt into "section" element; excluding backgroung attribute; */
 #portrait-section {
