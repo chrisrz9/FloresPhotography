@@ -60,7 +60,8 @@ img {
 	max-width: 100vw;
 	
 	padding: 3px 0px;
-
+	
+	box-shadow: 31px 31px 31px #333;
 }
 /* section > #portrait-section //adapt into "section" element; excluding backgroung attribute; */
 #portrait-section {
