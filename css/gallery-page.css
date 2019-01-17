@@ -2,6 +2,8 @@
 
 /* .image_section; section.image_section > h2.image_title > div.image_container > img. */
 section {
+	border: 1px solid red; /* development test */ 
+		
 	text-align: center;
 	
 	display: block;
