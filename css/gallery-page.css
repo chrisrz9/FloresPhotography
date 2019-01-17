@@ -1,8 +1,8 @@
 /* CSS Document */
 
 /* .image_section; section.image_section > h2.image_title > div.image_container > img. */
-section {
-	border: 1px solid red; /* development test */ 
+section.image_section {
+	border: 1px solid blue; /* development test */ 
 		
 	text-align: center;
 	
@@ -54,8 +54,10 @@ div.image_wrapper {
 	box-shadow: 30px 30px 30px #333; 
 }
 img {
+	position: relative;
+	
 	height: auto;
-	width: auto;
+	width: 100%;
 	
 	margin: 0;
 	padding: 0;
