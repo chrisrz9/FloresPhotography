@@ -33,8 +33,10 @@ article p {
 	
 	margin: 0;
 }
+
+/* #portrait_image_wrapper; div.image_wrapper #portrait_image_wrapper > img. */
 /* section element > */
-section {
+div.image_wrapper {
 	border: solid green 1px;
 	
 	text-align: center;
