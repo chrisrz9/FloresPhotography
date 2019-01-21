@@ -1,5 +1,37 @@
 /* CSS Document */
 
+#landing_image {
+	border: solid blue 1px;
+	
+	/* Font Attributes */
+	color: #ffffff;
+	font-weight: 500;
+	text-align: center;
+	
+	display: block;
+	position: relative;
+	
+	background-image: url("../images/index-content/Hiring-a-Professional-Photographer-1080x500 (1).jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	/* Element Dimensions */
+	height: 30vh;
+	width: 100%;
+	
+	margin: 0;
+	padding: 9px 0px;
+}
+
+#landing_text {
+	border: solid blue 1px;
+	display: flex;
+	width: 100%;
+	height: 50vh;
+	justify-content: center;
+	align-content: center;
+}
+
 article {
 	text-align: center;
 	
