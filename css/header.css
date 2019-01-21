@@ -2,7 +2,6 @@
 
 /* Header Element // Header Attribute; header. > nav. > ul > li > a */
 header {    
-	border: solid 1px #333;
 	/* Font Detail */
     color: rgba( 0, 0, 0, 1.00); /* RGB & A Hex Value*/
 	font-family: lato;
@@ -10,7 +9,7 @@ header {
 	text-align: center;
     
     /* Attribute Background */
-    background-color: rgba(250, 250, 250, 1.0); /* RGB & A Value */
+    background-color: #fff; /* RGB & A Value */
     
     /* Attribute Detail */
     display: block;
@@ -29,8 +28,8 @@ header {
 
 .title {
 	/* Development */
-	border: orange 1px;
 	
+	/* attributes */
 	height: 50px;
 	width: 100%;
 	font-size: 16px;
