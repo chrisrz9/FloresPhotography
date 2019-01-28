@@ -1,9 +1,9 @@
 /* CSS Document */
 
 /* Header Element // Header Attribute; header. > nav. > ul > li > a */
-header {    
+header {
+	
 	/* Font Detail */
-    color: rgba( 0, 0, 0, 1.00); /* RGB & A Hex Value*/
 	font-family: lato;
 	font: lighter;
 	text-align: center;
@@ -13,11 +13,11 @@ header {
     
     /* Attribute Detail */
     display: block;
-	box-shadow-bottom: 30px 0 40px rgba(0,0,0,1);
+	box-shadow: 0px 9px 16px #888;
     
     /* Attribute Dimensions */
     width: 100%;
-    height: 20vh;
+    height: auto;
     
     /* Attribute Position */
     position: relative;
@@ -30,37 +30,36 @@ header {
 	/* Development */
 	
 	/* attributes */
-	height: 50px;
-	width: 100%;
-	font-size: 16px;
+	font-size: 2.0rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	
 	margin: 0px;
 	padding: 0px 0px 0px 0px;
-	text-align: center;
-	align-content: center;
-	align-items: center;
-	position: relative;
-	overflow: hidden;
+	
+}
+
+header h2 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #888;
+	
 }
 
 /* Navigation Attribute */
-.navigation {
+nav {
 	text-align: center;
-	/* Development */
 	
 	/* Attribute detail*/
     display: block;
 	
-	height: 100px;
+	height: auto;
 	width: 100%;
 	
-	/* Attribute position */
 	position: relative;
-	top: 0px;
-	left: 0px;
-		
-	margin: 0px ;
-	padding: 9px 0px ;
-	box-shadow: 30px 0 40px #333;
+
+	margin: 0;
+	padding: 9px 0px;
 }
 
 nav ul {
