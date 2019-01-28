@@ -34,6 +34,25 @@
 	text-align: center;
 }
 
+#view_portfolio {
+	display: inline-block;
+	
+	color: #333;
+	text-decoration: none;
+	
+	border: 0.9px solid #888;
+	border-radius: 2.0rem;
+	
+	margin: 2.0rem 0 0;
+	padding: 0.2rem 1.0rem;
+	
+	transition: background 900ms ease;
+}
+
+#view_portfolio:hover {
+	background: #f4f4f4;
+}
+
 article {
 	
 	text-align: center;
