@@ -1,28 +1,32 @@
 /* CSS Document */
 
+main {
+	align-items: center;
+	justify-content: center;
+}
+
 /* .image_section; section.image_section > h2.image_title > div.image_container > img. */
 section.image_section {
-	border: 1px solid blue; /* development test */ 
 		
 	text-align: center;
 	
 	display: block;
 	position: relative;
 	
+	align-items: center;
+	justify-content: center;
+	
 	height: auto;
 	width: 100vw;
 	
-	margin: 0;
+	margin: 16px 0px;
+	
+	box-shadow: 9px 9px 16px #888;
 }
 section p {
 	line-height: 1.6em;
 }
-#section_one {
-	border: hidden red 1px;
-}
-#section_two {
-	border: hidden black 1px;
-}
+
 #section_two_entry {
 	border: hidden purple 1px;
 	align-content: center;
@@ -36,31 +40,66 @@ section p {
 }
 
 /* #portrait_image_wrapper; div.image_wrapper #portrait_image_wrapper > img. */
-/* section element > */
+
+#portrait_gallery {
+	background-image: url("../images/galleryContent/portrait-images/2017-10-10 21.35.16-3.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	height: 310px;
+}
+
+#portrait_gallery_btn {
+	text-align: center;
+
+	position: fixed;
+	
+	align-items: center;
+	justify-content: center;
+	
+	background-color: #ffffff;
+	
+	bottom: 16px;
+}
+
 div.image_wrapper {
-	border: solid green 1px;
 	
 	text-align: center;
-	align-content: center;
+	justify-content: center;
 	align-items: center;
 	
-	display: flex;
-	justify-content: center;
-	position: relative;
-	
-	height: auto;
-	width: 93%;
-	
-	box-shadow: 30px 30px 30px #333; 
-}
-img {
+	display: block;
 	position: relative;
 	
 	height: auto;
 	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+div.image_caption {
+
+	background: #ffffff;
 	
-	margin: 0;
-	padding: 0;
+	display: block;
+	position: relative;
+
+	width: 100%;
+}
+
+.btn {
+	display: inline-block;
+	
+	border: 1px solid #888;
+	border-radius: 2.0rem;
+	
+	width: 31px;
+	
+	margin: 0.9rem;
+	padding: 0.2rem 0.9rem;
 }
 /* section > #portrait-section //adapt into "section" element; excluding backgroung attribute; */
 #portrait-section {
