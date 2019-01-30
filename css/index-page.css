@@ -1,6 +1,10 @@
 /* CSS Document */
 
 .main {
+	
+	height: auto;
+	width: 100%;
+	
 	justify-content: center;
 	align-content: center;
 }
@@ -15,6 +19,7 @@
 	display: block;
 	position: relative;
 	
+	/* background attributes */
 	background-image: url("../images/index-content/Hiring-a-Professional-Photographer-1080x500 (1).jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -34,9 +39,9 @@
 	width: 100%;
 	height: 50vh;
 	
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+	justify-content: center; /* justify-content horizontally / x-axis */
+	align-items: center; /* align-items vertically / y-axis */
+	text-align: center; /* align text horizontally / x-axis */
 	
 	margin: 0px;
 }
@@ -45,7 +50,7 @@
 	margin: 9px 0px;
 }
 
-#view_portfolio {
+.btn {
 	display: inline-block;
 	
 	color: #333;
@@ -60,7 +65,7 @@
 	transition: background 900ms ease;
 }
 
-#view_portfolio:hover {
+.btn:hover {
 	background: #f4f4f4;
 }
 
@@ -98,14 +103,7 @@ section {
 #article_two {
 	border: hidden black 1px;
 }
-#article_two_entry {
-	border: hidden purple 1px;
-	align-content: center;
-	
-	font-size: 16px;
-	line-height: 1.6em;
-	
-	height: 200px;
-	
-	margin: 0;
+
+#purpose_btn {
+	margin: 16px 0px;
 }

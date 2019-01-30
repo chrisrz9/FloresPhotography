@@ -17,6 +17,7 @@ section.image_section {
 	justify-content: center;
 	
 	height: auto;
+	max-height: 310px;
 	width: 100vw;
 	
 	margin: 16px 0px;
@@ -50,19 +51,6 @@ section p {
 	height: 310px;
 }
 
-#portrait_gallery_btn {
-	text-align: center;
-
-	position: fixed;
-	
-	align-items: center;
-	justify-content: center;
-	
-	background-color: #ffffff;
-	
-	bottom: 16px;
-}
-
 div.image_wrapper {
 	
 	text-align: center;
@@ -72,7 +60,7 @@ div.image_wrapper {
 	display: block;
 	position: relative;
 	
-	height: auto;
+	height: inherit;
 	width: 100%;
 }
 
@@ -93,14 +81,25 @@ div.image_caption {
 .btn {
 	display: inline-block;
 	
-	border: 1px solid #888;
+	color: #333;
+	text-decoration: none;
+	
+	background: #f4f4f4;
+	
+	border: 0.9px solid #888;
 	border-radius: 2.0rem;
 	
-	width: 31px;
 	
 	margin: 0.9rem;
 	padding: 0.2rem 0.9rem;
+	
+	transition: background 900ms ease;
 }
+
+.btn:hover {
+	background: rgba(51,51,51,0.5);
+}
+
 /* section > #portrait-section //adapt into "section" element; excluding backgroung attribute; */
 #portrait-section {
 	color: #ffffff;
