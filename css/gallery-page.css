@@ -19,6 +19,7 @@ section.image_section {
 	height: auto;
 	max-height: 310px;
 	width: 100vw;
+	max-width: 900px;
 	
 	margin: 16px 0px;
 	
