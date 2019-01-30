@@ -1,6 +1,8 @@
 /* CSS Document */
 
 main {
+	text-align: center;
+	
 	align-items: center;
 	justify-content: center;
 }
@@ -16,12 +18,13 @@ section.image_section {
 	align-items: center;
 	justify-content: center;
 	
-	height: auto;
+	height: 310px;
 	max-height: 310px;
-	width: 100vw;
+	width: 100%;
 	max-width: 900px;
 	
 	margin: 16px 0px;
+	padding: 0px;
 	
 	box-shadow: 9px 9px 16px #888;
 }
@@ -29,21 +32,13 @@ section p {
 	line-height: 1.6em;
 }
 
-#section_two_entry {
-	border: hidden purple 1px;
-	align-content: center;
-	
-	font-size: 16px;
-	line-height: 1.6em;
-	
-	height: 200px;
-	
-	margin: 0;
-}
-
 /* #portrait_image_wrapper; div.image_wrapper #portrait_image_wrapper > img. */
 
-#portrait_gallery {
+#portrait_image_section {
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	
 	background-image: url("../images/galleryContent/portrait-images/2017-10-10 21.35.16-3.jpg");
 	background-position: center;
 	background-size: cover;
@@ -51,6 +46,32 @@ section p {
 	
 	height: 310px;
 }
+
+#family_image_section {
+	
+	background-image: url("../images/galleryContent/portrait-images/valglare_jcp.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#holiday_image_section {
+	background-image: url("../images/galleryContent/holiday-images/17973608_10203116386346709_1435561939254326278_o.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#purpose_image_section {
+	
+	background-image: url("../images/galleryContent/automotive-images/IMG_7160.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	height: 310px;
+}
+
 
 div.image_wrapper {
 	
@@ -81,8 +102,11 @@ div.image_caption {
 
 .btn {
 	display: inline-block;
+	position: absolute;
+	
 	
 	color: #333;
+	text-align-last: center;
 	text-decoration: none;
 	
 	background: #f4f4f4;
@@ -90,8 +114,10 @@ div.image_caption {
 	border: 0.9px solid #888;
 	border-radius: 2.0rem;
 	
+	left: 25%;
+	bottom: 0px;
 	
-	margin: 0.9rem;
+	margin: 0.9rem ;
 	padding: 0.2rem 0.9rem;
 	
 	transition: background 900ms ease;
@@ -101,6 +127,7 @@ div.image_caption {
 	background: rgba(51,51,51,0.5);
 	cursor: pointer;
 }
+
 
 /* section > #portrait-section //adapt into "section" element; excluding backgroung attribute; */
 #portrait-section {
