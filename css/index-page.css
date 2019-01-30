@@ -1,7 +1,7 @@
 /* CSS Document */
 
 .main {
-	
+	display: block;
 	height: auto;
 	width: 100%;
 	
@@ -76,6 +76,9 @@ article {
 	
 	display: block;
 	position: relative;
+	
+	align-items: center;
+	justify-content: center;
 	
 	height: auto;
 	width: 100%;
