@@ -5,7 +5,7 @@ header {
 	
 	/* Font Detail */
 	font-family: lato;
-	font: lighter;
+	font: thin;
 	text-align: center;
     
     /* Attribute Background */
@@ -27,22 +27,17 @@ header {
     }
 
 .site_title {
-	/* Development */
-	border: 1px solid red;
+	
+	/* development */
+
+	/* font attributes */
+	font-size: 0.9rem;
+	
 	/* attributes */
-	font-size: 2.0rem;
-	font-weight: 400;
 	text-transform: uppercase;
 	
 	margin: 0px;
-	padding: 0px 0px 0px 0px;
-	
-}
-
-header h2 {
-	font-size: 1.5rem;
-	font-weight: 400;
-	color: #888;
+	padding: 0px;
 	
 }
 
@@ -64,7 +59,6 @@ nav {
 
 nav ul {
 	align-content: center;
-	border: hidden red 1px;
     display: block;
 	height: inherit;
     width: 100%;
@@ -76,14 +70,14 @@ nav ul {
 header nav li {
 	text-align: center;
 	
-	font-size: 16px;
+	font-size: 1.0rem;
 	
 	/* Development */
 	border: hidden 1px blue;
 	
     display: inline-block;
     color: rgba(0, 0, 0, 1.0);
-	width: 70px;
+	width: auto;
     
     /* Font Detail */
     
@@ -91,7 +85,7 @@ header nav li {
     
     /* Attribut Position */
     margin:  0px;
-    padding: 0px 0px;
+    padding: 0px 9px;
 	position: inherit;
 }
 
