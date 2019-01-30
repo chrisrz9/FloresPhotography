@@ -56,6 +56,8 @@
 	color: #333;
 	text-decoration: none;
 	
+	background: #f4f4f4;
+	
 	border: 0.9px solid #888;
 	border-radius: 2.0rem;
 	
@@ -66,7 +68,7 @@
 }
 
 .btn:hover {
-	background: #f4f4f4;
+	background: rgba(51,51,51,0.50);
 	cursor: pointer;
 }
 
