@@ -72,6 +72,10 @@ section p {
 	height: 310px;
 }
 
+#real_estate_section {
+	
+	backgroung-image: url("../images/galleryContent/real-estate-images");
+}
 
 div.image_wrapper {
 	
