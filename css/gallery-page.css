@@ -74,7 +74,10 @@ section p {
 
 #real_estate_section {
 	
-	backgroung-image: url("../images/galleryContent/real-estate-images");
+	backgroung-image: url("../images/galleryContent/estate-images/2017-01-18 03.56.24.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 div.image_wrapper {
