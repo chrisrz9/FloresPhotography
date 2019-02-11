@@ -8,9 +8,9 @@ footer {
 	display: block;
 	position: relative;
 	
-	background-color: #e2e2e2;
+	background-color: #eeeeee;
 	
-	color: #ffffff;	
+	color: rgba(51,51,51,1.00);	
 	
 	height: auto;
 	width: 100%;
