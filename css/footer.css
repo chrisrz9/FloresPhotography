@@ -22,7 +22,7 @@ footer {
 	border: solid red 1px;
 	
 	height: inherit;
-	text-align: right;
+	text-align: left;
 	
 	margin: inherit;
 	padding: 0px 9px;
@@ -35,6 +35,9 @@ footer nav {
 	width: 50%;
 }
 footer ul {
+	
+	font-weight: 400;
+	
 	position: inherit;
 	padding: 1px 0px;
 }
