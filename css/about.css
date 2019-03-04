@@ -1,0 +1,53 @@
+/* CSS Document */
+
+.main {
+	
+	color: #333;
+	
+	display: block;
+	height: auto;
+	width: 100%;
+	
+	justify-content: center;
+	align-content: center;
+}
+article {
+	
+	text-align: center;
+	
+	display: block;
+	position: relative;
+	
+	background-color: rgba(255, 255, 255, 1.0);
+	
+	align-items: center;
+	justify-content: center;
+	
+	height: auto;
+	width: 100%;
+	max-width: 900px;
+	margin-top: 31px;
+	margin-bottom: 31px;
+	padding: 16px 0px;
+	
+	box-shadow: 0px 9px 16px #888;
+}
+article p {
+	line-height: 1.6em;
+}
+#article_one {
+	border: hidden red 1px;
+}
+section {
+	
+	display: block;
+	position: relative;
+	
+	background-color: rgba(255, 255, 255, 100%);
+	
+	height: auto;
+	width: 100%;
+}
+#article_two {
+	border: hidden black 1px;
+}

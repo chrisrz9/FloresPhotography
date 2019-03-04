@@ -19,6 +19,7 @@ footer {
 	padding: 9px 0px;
 }
 .footer_logo {
+	text-align-last: center;
 	
 	height: inherit;
 	text-align: left;

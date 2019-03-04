@@ -7,15 +7,16 @@ article {
 	
 	height: auto;
 	width: 100%;
+	max-width: 900px;
 	max-width: 100%;
 	
-	margin: 0;
+	margin: 31px 0px 31px 0px;
+	padding: 0px 0px;
+	
+	box-shadow: 0px 9px 16px #888;
 }
 article p {
 	line-height: 1.6em;
-}
-#article_one {
-	border: hidden red 1px;
 }
 section {
 	border: hidden green 1px;
@@ -25,12 +26,17 @@ section {
 	
 	height: auto;
 	width: 100%;
+	
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
 }
-#article_two {
-	border: hidden black 1px;
+
+iframe {
+	margin: 0px;
+	padding: 0px 0px 0px 0px; 
 }
+
 #article_two_entry {
-	border: hidden purple 1px;
 	align-content: center;
 	
 	font-size: 16px;
