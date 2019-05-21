@@ -1,0 +1,42 @@
+/* CSS Document */
+html{
+	width: vw;
+	border: solid green 1px;
+}
+body {
+	width: vw;
+	border: solid red 1px;
+}
+
+.wrapper {
+	border: solid pink 1px;
+	
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	margin: 0 auto;
+	width: vw;
+}
+a {
+	border: solid yellow 1px;
+	display: block;
+	height: 100px;
+	margin: 10px;
+	width: 210px;
+}
+a img {
+	border: solid orange 1px;
+	
+	transform: scale(0.5) translate(-50%, -50%);
+	transition: all 200ms;
+}
+a:focus img {
+	border: solid 3px #ffffff;
+	box-shadow: 0 0 10rem 0 #000000;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: scale(1) translate(-50%, -50%);
+	z-index: 1;
+}
