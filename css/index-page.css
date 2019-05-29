@@ -15,8 +15,6 @@
 #landing_image {
 	
 	/* Font Attributes */
-	font-weight: 500;
-	text-align: center;
 	
 	display: block;
 	position: relative;
@@ -28,11 +26,11 @@
 	background-color: transparent;
 	
 	/* Element Dimensions */
-	height: 30vh;
+	height: 54vh;
 	width: 100%;
 	
 	margin: 16px 0px 0px 0px;
-	padding: 9px 0px;
+	padding: 0px 0px;
 }
 
 #landing_text {

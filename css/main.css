@@ -45,6 +45,50 @@ body {
     background-color: rgba(255, 255, 255, 1.0);
 }
 /* main element: */
+#landing_image_text {
+	border: solid red 1px;
+	
+	display: inline-block;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	
+	height: 100%;
+	width: 100%;
+	
+	margin: 0px;
+	padding: 0px;
+}
+#landing_image_title {
+	display: block;
+	color: #ffffff;
+	
+	font-size: 7.9rem;
+	line-height: 93px;
+	
+	height: auto;
+	
+	left: 0px;
+	
+	margin: 0px;
+	padding: 16px 0px;
+}
+
+#landing_image_subtext {
+	display: block;
+	color: #ffffff;
+	
+	font-size: 1.6rem;
+	
+	height: 100%;
+	
+	top: 0px;
+	left: 0px;
+	
+	margin: 0px 0px;
+	padding: 0px;
+}
+
 #introBio {
 	position: relative;
 	
